@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "token-analysis"
-version = "1.0.0"
+version = "1.0.1"
 description = "Compare token usage, cost, and performance across GPT-4o, Claude, and Grok-3 for the same prompt"
 readme = "README.md"
-license = { text = "MIT" }
+license = { file = "LICENSE" }
 requires-python = ">=3.10"
 keywords = ["llm", "tokens", "analysis", "openai", "anthropic", "grok", "ai", "cost", "benchmark"]
 classifiers = [
@@ -39,7 +39,7 @@ dev = [
 token-analysis = "token_analysis.cli:main"
 
 [project.urls]
-Repository = "https://github.com/your-username/token-analysis"
+Repository = "https://github.com/Manjugadupudi/Token_analyzer"
 
 [tool.setuptools.packages.find]
 where = ["src"]
